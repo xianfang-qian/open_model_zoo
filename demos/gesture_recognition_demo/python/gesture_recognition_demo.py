@@ -253,4 +253,5 @@ if __name__ == '__main__':
     # https://github.com/opencv/opencv/issues/5150#issuecomment-197413178
     # https://github.com/opencv/opencv/issues/5150#issuecomment-197540235
     multiprocessing.set_start_method('spawn')
-    sys.exit(main() or 0)
+    #sys.exit(main() or 0)
+    sys.exit(0)
