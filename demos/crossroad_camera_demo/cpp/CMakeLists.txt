@@ -1,6 +1,7 @@
 # Copyright (C) 2018-2019 Intel Corporation
 # SPDX-License-Identifier: Apache-2.0
 #
+cmake_minimum_required(VERSION 3.20)
 
 add_demo(NAME crossroad_camera_demo
     SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/main.cpp"
