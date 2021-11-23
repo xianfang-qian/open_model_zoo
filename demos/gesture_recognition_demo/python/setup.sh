@@ -1,6 +1,5 @@
 #!/bin/bash
 #mkdir -p ~/results
-
 source /opt/intel/openvino_2021/bin/setupvars.sh
 python3 gesture_recognition_demo.py \
     -m_a asl-recognition-0004.xml \
