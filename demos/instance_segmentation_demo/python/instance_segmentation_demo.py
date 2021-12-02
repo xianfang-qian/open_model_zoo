@@ -28,7 +28,8 @@ from openvino.inference_engine import IECore
 sys.path.append(str(Path(__file__).resolve().parents[2] / 'common/python'))
 
 #from instance_segmentation_demo.model_utils import check_model
-from instance_segmentation_demo import model_utils
+#from instance_segmentation_demo import model_utils
+from instance_segmentation_demo.model_utils import *
 from instance_segmentation_demo.tracker import StaticIOUTracker
 from instance_segmentation_demo.visualizer import Visualizer
 
