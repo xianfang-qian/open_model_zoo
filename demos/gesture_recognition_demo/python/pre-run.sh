@@ -1,2 +1,3 @@
 pip install -r req.txt
-mkdir -p /data/gesture_recognition_demo
+cd /data
+mkdir gesture_recognition_demo
